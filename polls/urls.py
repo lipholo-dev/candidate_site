@@ -3,6 +3,7 @@ from . import views
 
 app_name = 'polls'  # Add a namespace for the app
 
+# here are all urls
 urlpatterns = [
     path('', views.index, name='index'),
     path('<int:question_id>/', views.detail, name='detail'),

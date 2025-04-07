@@ -3,8 +3,8 @@ import sys
 import django
 
 # Add the Django project root directory to the Python path
-sys.path.insert(0, os.path.abspath('.'))  # Current directory
-sys.path.insert(0, os.path.abspath('./candidate_site'))  # Django project package
+sys.path.insert(0, os.path.abspath('..'))  # Parent directory of conf.py
+sys.path.insert(0, os.path.abspath('../candidate_site'))  # Django project package
 
 # Set the Django settings module
 os.environ['DJANGO_SETTINGS_MODULE'] = 'candidate_site.settings'
