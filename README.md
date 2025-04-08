@@ -24,12 +24,12 @@
 3. **Docker Setup**:
    - Build the Docker image:
      ```bash
-     docker build -t your_project_name .
+     docker build -t candidate_site .
      ```
 
    - Run the Docker container:
      ```bash
-     docker run -p 8000:8000 your_project_name
+     docker run -p 8000:8000 candidate_site
      ```
 
 4. **Environment Variables**:
